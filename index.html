@@ -1,66 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <!-- Primary Meta Tags -->
-    <title>Lula 2º Turno — Gerar flyer de apoio ao Lula com seu nome</title>
+    <title>Fábio 2º Turno — Gerar flyer de apoio a Fábio com seu nome</title>
     <meta
       name="title"
-      content="Lula 2º Turno — Gerar flyer de apoio ao Lula com seu nome"
+      content="Fábio 2º Turno — Gerar flyer de apoio a Fábio com seu nome"
     />
     <meta
       name="description"
-      content="Gere seu flyer personalizado com seu nome de apoio ao Lula para o segundo turno das eleições brasileira"
+      content="Gere seu flyer personalizado com seu nome em apoio a Fábio para o segundo turno das eleições ao governo de Sergipe"
     />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
-      content="https://cristiantela.github.io/lula2turno/"
+      content="https://claudsonm.github.io/sergipe-election/"
     />
     <meta
       property="og:title"
-      content="Lula 2º Turno — Gerar flyer de apoio ao Lula com seu nome"
+      content="Fábio 2º Turno — Gerar flyer de apoio a Fábio com seu nome"
     />
     <meta
       property="og:description"
-      content="Gere seu flyer personalizado com seu nome de apoio ao Lula para o segundo turno das eleições brasileira"
+      content="Gere seu flyer personalizado com seu nome em apoio a Fábio para o segundo turno das eleições ao governo de Sergipe"
     />
     <meta
       property="og:image"
       itemprop="image"
-      content="https://cristiantela.github.io/lula2turno/metadata.png"
+      content="https://claudsonm.github.io/sergipe-election/metadata.png"
     />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta
       property="twitter:url"
-      content="https://cristiantela.github.io/lula2turno/"
+      content="https://claudsonm.github.io/sergipe-election/"
     />
     <meta
       property="twitter:title"
-      content="Lula 2º Turno — Gerar flyer de apoio ao Lula com seu nome"
+      content="Fábio 2º Turno — Gerar flyer de apoio a Fábio com seu nome"
     />
     <meta
       property="twitter:description"
-      content="Gere seu flyer personalizado com seu nome de apoio ao Lula para o segundo turno das eleições brasileira"
+      content="Gere seu flyer personalizado com seu nome em apoio a Fábio para o segundo turno das eleições ao governo de Sergipe"
     />
     <meta
       property="twitter:image"
-      content="https://cristiantela.github.io/lula2turno/metadata.png"
+      content="https://claudsonm.github.io/sergipe-election/metadata.png"
     />
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lula 2° Turno</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap"
+      rel="stylesheet">
 
     <style>
       body {
@@ -91,8 +88,8 @@
         padding: 0.5rem 1rem;
         margin: 1rem 0;
         border-width: 0;
-        border-bottom: 2px solid rgb(9, 99, 37);
-        background-color: #107b29;
+        border-bottom: 2px solid rgb(99, 82, 9);
+        background-color: #fa9f27;
         color: white;
         cursor: pointer;
       }
@@ -103,94 +100,7 @@
         margin: 0 auto;
         margin-bottom: 1rem;
       }
-
-      .container footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 1rem;
-        row-gap: 0.5rem;
-      }
-
-      .container footer a {
-        color: #f5c012;
-        text-decoration: none;
-        column-gap: 0.25rem;
-      }
-
-      .container footer a {
-        display: flex;
-        align-items: center;
-      }
-
-      .container footer a img {
-        height: 1.5rem;
-      }
-
-      .container footer a img.profile {
-        border-radius: 50%;
-      }
-
-      .container smartphone {
-        display: block;
-        color: #1da60e;
-        margin: 2rem 0;
-        font-weight: bold;
-      }
-
-      .container smartphone input {
-        height: 1.75rem;
-        margin: 0;
-        padding: 0 0.5rem;
-        box-sizing: border-box;
-        font-size: 1rem;
-        border: 1px solid #f5c012;
-        background-color: transparent;
-        color: #f5c012;
-        outline: none;
-        margin-left: 0.5rem;
-      }
-
-      .container smartphone .copy {
-        height: 1.5rem;
-        cursor: pointer;
-        display: inline-block;
-        vertical-align: middle;
-        margin-right: 0.5rem;
-      }
-
-      .container smartphone a {
-        color: #f5c012;
-        text-decoration: underline;
-        text-underline-offset: 0.5rem;
-      }
-
-      .container smartphone a:hover {
-        color: #b08b10;
-        text-decoration: underline;
-        text-underline-offset: 0.5rem;
-      }
-
-      .container smartphone .nubank {
-        height: 1.5rem;
-      }
     </style>
-
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XG904CQWTP"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-XG904CQWTP");
-    </script>
-    <script src="js/clipboardtext.js"></script>
   </head>
   <body>
     <div class="container">
@@ -199,53 +109,9 @@
       <button>Salvar Imagem</button>
 
       <canvas width="1080" height="1080"></canvas>
-
-      <footer>
-        <a href="https://www.instagram.com/cristianfrontend/" target="_blank">
-          <img src="img/cristiantela-profile.png" class="profile" />
-          <img src="img/instagram-logo.svg" />
-          <span><b>cristian</b>frontend</span>
-        </a>
-
-        <a href="https://github.com/cristiantela/lula2turno" target="_blank">
-          <img src="img/github-logo.svg" />
-          <span>cristiantela/lula2turno</span>
-        </a>
-      </footer>
-
-      <smartphone>
-        Olá, meu nome é Matheus Cristian, e estou precisando de um celular para
-        trabalhar, pois o meu celular quebrou. Doe o valor que puder para me
-        ajudar através da chave pix
-        <input class="email" value="mathues@email.com" />
-        <img
-          data-copy="mathues@email.com"
-          data-done="copy sucessful"
-          class="copy"
-          src="img/copy.svg"
-          alt="Copiar"
-          title="Copiar"
-        />
-        ou por
-        <a href="https://nubank.com.br/pagar/199pu6/OH6ITDqcpU" target="_blank">
-          este link do Nubank
-          <img src="img/nubank-logo.svg" class="nubank" />
-        </a>
-      </smartphone>
     </div>
 
     <script>
-      document.querySelector(".copy").addEventListener("click", () => {
-        const copyText = document.querySelector(".email");
-        copyText.value = "mathues@email.com";
-        copyText.select();
-        copyText.setSelectionRange(0, 99999); // For mobile devices
-
-        navigator.clipboard.writeText(copyText.value);
-
-        alert("Chave pix copiada!");
-      });
-
       const canvas = document.querySelector("canvas");
       const context = canvas.getContext("2d");
 
@@ -253,20 +119,16 @@
       baseImage.src = "./base.png";
 
       const names = [
-        "Jose",
+        "José",
         "João",
-        "Joao",
         "Antônio",
-        "Antonio",
         "Francisco",
         "Carlos",
         "Paulo",
         "Pedro",
         "Lucas",
         "Luiz",
-        "Luíz",
         "Marcos",
-        "Luis",
         "Luís",
         "Gabriel",
         "Rafael",
@@ -283,67 +145,49 @@
         "André",
         "Fernando",
         "Fábio",
-        "Fabio",
         "Leonardo",
         "Gustavo",
         "Guilherme",
         "Leandro",
         "Tiago",
-        "Ânderson",
         "Anderson",
         "Ricardo",
         "Márcio",
-        "Marcio",
         "Jorge",
         "Sebastião",
-        "Sebastiao",
         "Alexandre",
         "Roberto",
-        "Édson",
         "Edson",
         "Diego",
-        "Vítor",
         "Vitor",
         "Sérgio",
-        "Sergio",
         "Cláudio",
-        "Claudio",
         "Matheus",
         "Thiago",
         "Geraldo",
         "Adriano",
         "Luciano",
-        "Júlio",
         "Julio",
         "Renato",
         "Alex",
         "Vinícius",
         "Vinicius",
-        "Rogério",
-        "Rogerio",
         "Samuel",
         "Ronaldo",
         "Mário",
-        "Mario",
         "Flávio",
-        "Flavio",
-        "Ígor",
         "Igor",
         "Douglas",
-        "Daví",
         "Davi",
         "Manuel",
         "Maria",
         "Ana",
         "Francisca",
         "Antônia",
-        "Antonia",
         "Adriana",
         "Juliana",
         "Márcia",
-        "Marcia",
         "Fernanda",
-        "Patricia",
         "Patrícia",
         "Aline",
         "Sandra",
@@ -351,38 +195,29 @@
         "Amanda",
         "Bruna",
         "Jéssica",
-        "Jessica",
-        "Leticia",
         "Letícia",
         "Júlia",
-        "Julia",
         "Luciana",
         "Vanessa",
         "Mariana",
         "Gabriela",
         "Vera",
         "Vitória",
-        "Vitoria",
         "Larissa",
         "Cláudia",
-        "Claudia",
         "Beatriz",
         "Luana",
         "Rita",
         "Sônia",
-        "Sonia",
         "Renata",
         "Eliane",
         "Josefa",
         "Simone",
         "Natália",
-        "Natalia",
         "Cristiane",
         "Carla",
         "Débora",
-        "Debora",
         "Rosângela",
-        "Rosangela",
         "Jaqueline",
         "Rosa",
         "Daniela",
@@ -391,24 +226,18 @@
         "Terezinha",
         "Raimunda",
         "Andréia",
-        "Andreia",
         "Fabiana",
         "Lúcia",
-        "Lucia",
         "Raquel",
-        "Ângela",
         "Angela",
         "Rafaela",
         "Joana",
-        "Luzía",
         "Luzia",
         "Elaine",
         "Daniele",
         "Regina",
-        "Dáiane",
         "Daiane",
         "Suelí",
-        "Sueli",
         "Alessandra",
         "Isabel",
       ];
@@ -467,16 +296,16 @@
 
           context.save();
 
-          context.translate(540, 348);
-          context.rotate((-2 * Math.PI) / 180);
+          context.translate(540, 408);
+          context.rotate((-12 * Math.PI) / 180);
 
           context.textBaseline = "middle";
-          context.font = "196.13px Bebas Neue";
+          context.font = "130.13px Montserrat";
           const width = context.measureText(
             document.querySelector("input").value.trim()
           ).width;
 
-          context.fillStyle = "#1ABC4C";
+          context.fillStyle = "#009EFF";
           roundRect(
             context,
             -width / 2 - 25,
